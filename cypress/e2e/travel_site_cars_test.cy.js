@@ -71,5 +71,5 @@ describe('The cars tab test suite will verify cars functionality', () => {
 
     })
 
-
+    
 })
