@@ -11,10 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.17.0",
-    "cypress-junit-reporter": "^2.1.0"
+    "cypress-junit-reporter": "^1.0.0"  // Updated version
   },
   "overrides": {
     "string-width-cjs": "5.1.1",
     "strip-ansi-cjs": "5.1.0"
   }
 }
+
