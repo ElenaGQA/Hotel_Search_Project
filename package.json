@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "npx cypress run --reporter junit > cypress.log 2>&1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.10.0"
+    "cypress": "^13.17.0",
+    "cypress-junit-reporter": "^2.1.0"
+  },
+  "overrides": {
+    "string-width-cjs": "5.1.1",
+    "strip-ansi-cjs": "5.1.0"
   }
 }
